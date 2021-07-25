@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In | Employee Training Application</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Employee Training Application</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homeblack" href="elogin.html">Employee Login</a></li>
+				<li><a class="homered" href="alogin.html">Admin Login</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<img src="EmpWeb.png" style="margin-right: 80px; margin-left: 30px"; width="1194"; height="594">
+
+	<div class="loginbox">
+    <img src="login.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="process/aprocess.php" method="POST">
+            <p>Admin Username</p>
+            <input type="text" name="mailuid" placeholder="Enter Username" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+    </div>
+	<footer>
+		<p style="text-align: center;">@2021 Fabe Moncay Torres</p>
+	</footer>
+</body>
+</html>
